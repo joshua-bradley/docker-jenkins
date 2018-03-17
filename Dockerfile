@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.102-slim
+FROM jenkins/jenkins:2.107.1-slim
 LABEL maintainer "Joshua Bradley <josh@joshuabradley.io>"
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
