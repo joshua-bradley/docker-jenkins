@@ -7,7 +7,7 @@ ARG ENV_TZ="US/Pacific"
 # set timezone for Jenkins container
 USER root
 ENV JENKINS_TZ=$ENV_TZ
-RUN ln -fs /usr/share/zoneinfo/$JENKINS_TZ /etc/localtime && echo $JENKINS_TZ > /etc/timezone
+RUN echo $JENKINS_TZ > /etc/timezone
 USER jenkins
 
 # install custom plugin list
