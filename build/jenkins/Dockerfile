@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.107.1-slim
+FROM jenkins/jenkins:2.117-slim
 LABEL maintainer "Joshua Bradley <josh@joshuabradley.io>"
 
 # declare build time arguments
