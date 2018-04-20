@@ -1,5 +1,6 @@
 FROM jenkins/jenkins:2.117-slim
 LABEL maintainer "Joshua Bradley <josh@joshuabradley.io>"
+LABEL service-name "datapp-jenkins"
 
 # declare build time arguments
 ARG ENV_TZ="US/Pacific"
